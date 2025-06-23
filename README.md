@@ -1,6 +1,6 @@
 # Medical-Appointments-No-Show-cleaned-dataset
 
-# 🧹 Medical Appointments No-Show – Data Cleaning Project
+#Medical Appointments No-Show – Data Cleaning Project
 
 This project involves cleaning the **"Medical Appointment No-Show"** dataset using **Microsoft Excel** and **Power Query**. The dataset contains over 100,000 medical appointment records from Brazil and tracks whether patients showed up or not.
 
@@ -17,11 +17,11 @@ This project involves cleaning the **"Medical Appointment No-Show"** dataset usi
 
 - Microsoft Excel
 - Excel Power Query
-- Basic Excel formulas (`=TEXT(..., 0)`, `=LOWER()`, `=SUBSTITUTE()`)
+- Basic Excel formulas
 
 ---
 
-## 🧼 Data Cleaning Summary
+##  Data Cleaning Summary
 
 ### 🔧 Column Renaming & Standardization
 
@@ -45,7 +45,7 @@ This project involves cleaning the **"Medical Appointment No-Show"** dataset usi
 
 ### 🧪 Data Quality Fixes
 
-- ✅ **Patient IDs** were converted from scientific/decimal format using `=TEXT(cell, 0)`
+- ✅ **Patient IDs** were converted from scientific/decimal format using power Query.
 - ✅ **Age** with value `-1` was replaced with `0`
 - ✅ **Checked for missing values** – none found
 - ✅ **Checked for duplicates** – none found
@@ -83,18 +83,24 @@ This project involves cleaning the **"Medical Appointment No-Show"** dataset usi
 | `no_show`            | "Yes" if patient missed the appointment, "No" otherwise |
 
 ---
+##File contents
+-Medical_appointments_no_show_cleaned.zip'-compressed archive containing the final excel file
+   -format:'.xlsx'(Excel Workbook)
+   -UTF-08
+   -supports filters,formatting,Power Query transforming
 
 ## 📌 Notes
 
 - No complex formulas or scripts were used.
 - Cleaning focused on accessibility, structure, and clarity.
 - The dataset is ready for analysis, dashboards, or further modeling.
+- Download and unzip the file to avoid formatting issues
+- 
 
 ---
 
 
 
 **Chandini C**  
-_Data Analyst Intern_  
-This project is part of my data cleaning and internship deliverables.
+
 
