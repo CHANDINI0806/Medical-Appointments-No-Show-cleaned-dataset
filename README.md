@@ -95,7 +95,7 @@ This project involves cleaning the **"Medical Appointment No-Show"** dataset usi
 - Cleaning focused on accessibility, structure, and clarity.
 - The dataset is ready for analysis, dashboards, or further modeling.
 - Download and unzip the file to avoid formatting issues
-- 
+
 
 ---
 
